@@ -1,0 +1,37 @@
+.container-fluid{
+    width: 100%;
+    height: 100px;
+    background-color: seashell;
+
+}
+.infobar-top{
+    background-color:rgb(2,21,83) ;
+    width: 100%;
+    height: 20px;
+    display: flex;
+
+    .sale-ebay{
+        flex-grow: 2;
+       
+        
+
+    }
+    .phone-number{
+        background-color: skyblue;
+        flex-grow: 0;
+
+
+    }
+    .send{
+        background-color: springgreen;
+        flex-grow: 0;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .phone-number{
+        display: none;
+
+    }
+    
+  }
